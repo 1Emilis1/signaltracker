@@ -140,6 +140,7 @@ basic.forever(function () {
                 if (input.buttonIsPressed(Button.AB)) {
                     Selected = 0
                     SelectedAppPre = 1
+                    normal = 0
                 }
                 basic.pause(500)
             }
@@ -153,6 +154,7 @@ basic.forever(function () {
                 if (input.buttonIsPressed(Button.AB)) {
                     Selected = 0
                     SelectedApp = 3
+                    normal = 0
                 }
                 basic.pause(500)
             }
